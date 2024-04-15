@@ -28,3 +28,11 @@ app.use(cors({
 app.use(express.json({limit:"16kb"}))
 app.use(express.urlencoded({extended:true}));
 
+
+/*/
+
+like their are many fucntion (err , res , req , next)
+whenever we are talking about middleware next is come means one says yeah i have done my work and now go to next middleware
+/*/
+
+
